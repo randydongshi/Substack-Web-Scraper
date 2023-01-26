@@ -5,8 +5,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import csv
 
-ChuckSubstack = 'https://chuckpalahniuk.substack.com/archive'
-MattTaibbiSubstack = 'https://taibbi.substack.com/archive'
 
 def substack_scraper(url):
     # Open website
